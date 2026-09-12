@@ -1,0 +1,246 @@
+:root{
+    --cream:#F7F2E9;
+    --sand:#ECE2CF;
+    --ink:#2A2118;
+    --ink-soft:#5B5044;
+    --clay:#B8603F;
+    --clay-deep:#8F4530;
+    --sage:#8C9A78;
+    --blush:#E7C9B9;
+    --line: rgba(42,33,24,0.12);
+    --radius: 22px;
+  }
+
+  /* **************** FLEX CLASS ***************** */
+
+.flex{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+
+
+
+/* *************   GRID CLASSES **************** */
+
+.grid{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.grid-7{
+    grid-template-columns: repeat(7, 1fr);
+    gap: 10px;
+}
+
+.grid-4{
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.grid-3{
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.grid-1{
+    grid-template-columns: repeat(1, 1fr);
+}
+
+
+
+/* *************MARGIN BOTTOMS ****************** */
+
+.mb-1{
+    margin-bottom: 10px;
+}
+
+.mb-2{
+    margin-bottom: 15px;
+}
+
+.mb-3{
+    margin-bottom: 20px;
+}
+
+.mb-4{
+    margin-bottom: 25px;
+}
+
+
+
+/* ******************MARGIN AUTO**************************** */
+
+.m-auto{
+    margin: 0 auto;
+}
+
+.m-auto10{
+    margin: 10px auto;
+}
+
+
+.m-auto10{
+    margin: 10px auto;
+}
+
+
+
+/* *************** MARGIN ALL ROUND ******************** */
+
+.m-05{
+    margin: 5px;
+}
+
+.m-1{
+    margin: 10px;
+}
+
+.m-1-0{
+    margin: 10px 0;
+}
+.m-2{
+    margin: 15px;
+}
+
+.m-3{
+    margin: 20px;
+}
+
+.m-33{
+    margin: 4px 0;
+}
+
+.m-4{
+    margin: 25px;
+}
+
+
+
+/* ******************PADDING ALL ROUND ********************* */
+
+.p-1{
+    padding: 10px;
+}
+.p-2{
+    padding: 15px;
+}
+
+.p-3{
+    padding: 20px;
+}
+
+.p-4{
+    padding: 25px;
+}
+
+.link-active{
+    background-color: var(--clay);
+    color: white;
+    border-radius: 10px;
+}
+
+.fixed{
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    left: 0;   
+}
+
+.card{
+    background-color: var(--sand);
+    border: 2px solid var(--line);
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px -2px ;
+}
+
+.card-desc{
+    background-color: var(--sand);
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px -2px ;
+    margin: 15px;
+    padding: 25px;
+    line-height: 1.8rem;
+}
+
+.m-width{
+    max-width: 100%;
+    width: 900px;
+}
+
+.type{
+    background-color: var(--cream);
+    border: 1px solid var(--line);
+}
+
+
+/* SELECTED SKINYPE AND GOALS */
+
+.choice-active{
+    background-color: var(--clay-deep);
+    color: white;
+    
+}
+
+.goal-active{
+    background-color: var(--clay-deep);
+    color: white;
+    
+}
+
+
+
+button{
+    background-color: var(--ink-soft);
+    outline: 0;
+    border: 0;
+    letter-spacing: 2px;
+    padding:10px 20px;
+    border-radius: 10px;
+}
+
+/* product paragraph */
+
+.p-pg{
+    font-size: 16px;
+}
+
+.spacing{
+    letter-spacing: 3px;
+    font-weight: lighter;
+}
+
+.spacing-2{
+    letter-spacing: 2px;
+    font-weight: 500;
+}
+
+.w-spacing{
+    letter-spacing: 1px;
+    font-weight: lighter;
+}
+
+.type-toast{
+    position: absolute;
+}
+
+.type-toast .card{
+    position: absolute;
+    width: 50%;
+    margin: 0 auto;
+    top: vh;
+    left: 50%;
+}
+
+.home-flex{
+    display: flex;
+    flex-direction: column;
+}
+
+.home{
+    height: calc(100vh - 5rem);
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 3rem ;
+    min-height: 100vh;
+}

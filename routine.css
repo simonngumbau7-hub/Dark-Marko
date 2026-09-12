@@ -1,0 +1,608 @@
+
+:root{
+    --cream:#F7F2E9;
+    --sand:#ECE2CF;
+    --ink:#2A2118;
+    --ink-soft:#5B5044;
+    --clay:#B8603F;
+    --clay-deep:#8F4530;
+    --sage:#8C9A78;
+    --blush:#E7C9B9;
+    --line: rgba(42,33,24,0.12);
+    --radius: 22px;
+  }
+
+.logo{
+    
+}
+
+body{
+    font-family: "Cormorant Garamond", serif;
+}
+
+html{
+    font-size: 20px;
+}
+
+.routine.grid{
+    gap:10px;
+}
+
+.morning-routine, .evening-routine{
+    background-color: var(--cream);
+    border-radius: 10px;
+    border: 1px solid var(--line);
+}
+
+.evening-routine{
+    margin-top: 10px;
+}
+
+.am{
+    border-right: 2px solid var(--ink);
+}
+
+
+.center{
+    text-align: center;
+}
+
+.product-card{
+    display: flex;
+    width: 100%;
+    height: auto;
+    background-color: var(--cream);
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid var(--line);
+    margin: 5px auto;
+
+    img{
+        width:30%;
+        border-radius: 10px;
+        box-shadow: 1px 1px 3px;
+    }
+}
+
+.display-type{
+    position: relative;
+}
+
+.routine-heading {
+    background-color: var(--ink-soft);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    padding: 10px;
+    color: var(--cream);
+    font-weight: 400;
+    letter-spacing: 1px;
+    word-spacing: 3px;
+}
+
+
+.category-div{
+    margin: 10px 0;
+}
+
+.category-header{
+    color: var(--ink-soft);
+    font-weight: 300;
+}
+
+.heading{
+    margin-top: 10px;
+}
+
+.product-name{
+    text-align: right;
+    color: var(--ink-soft);
+}
+
+.work, .working{
+    padding: 10px;
+    text-align: right;
+}
+
+
+.order{
+    background-color: var(--ink-soft);
+    width: 90%;
+}
+
+.product-info{
+    flex: 1;
+    display: flex;
+    align-items: center;
+}
+
+#p-image{
+    justify-self: center;
+}
+
+
+
+
+/* ******************** WEEKDAYS **************** */
+.week-days{
+    padding: 0px;
+    column-gap: 5px;
+    margin-bottom: 5px;
+}
+
+.week-day{
+    height: 40px;
+    background-color: var(--cream);
+    border: 1px solid var(--line);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+}
+
+
+
+/* *************** ROUTINE STEPS ******************** */
+.step-card{
+    margin: 10px 8px;
+    background-color: var(--sand);
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid var(--line);
+    position: relative;
+
+    img{
+        border-radius: 10px;
+    }
+}
+
+.number-name{
+    display: flex;
+    gap: 10px;
+}
+
+.step-product{
+    padding: 5px 0;
+}
+
+.step-instruction{
+     padding: 0 0 5px 0;
+}
+
+.step.card{
+    border-radius: 5px;
+    border: 1px solid var(--line);
+    box-shadow: 0 0 0 0 ;
+    background-color: var(--ink);
+    color: var(--cream);
+    padding: 0 10px;
+}
+
+.steps{
+    margin-bottom: 20px;
+}
+
+.check-step{
+    position: absolute;
+    height: 25px;
+    width: 25px;
+    top: 5px;
+    right: 10px;
+    background-color: var(--cream);
+    border: 1.5px solid var(--line);
+    border-radius: 50%;
+    cursor: pointer;
+    
+}
+.rating{
+    text-align: right;
+}
+
+
+
+
+/* ************ CATEGORY BREAKER ******************* */
+.category-breakline{
+    background:transparent;
+    border-left: 2px solid var(--line);
+    border-top: 2px solid var(--line);
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.empha{
+    color: var(--clay);
+    font-weight: 600;
+}
+
+
+/* ***************** CHECK IMAGE ******************* */
+.check-step-img{
+    display: none;
+}
+
+.show{
+    display: block;
+}
+
+
+/* *************** STEP CARD ******************** */
+.step-guide{
+    p{
+        line-height: 1.5rem;
+        font-weight: 500;
+    }
+}
+
+/* *********************** DOWNLOAD STEPS ************************* */
+.download-steps{
+    justify-self: center;
+    display: block;
+    font-size: 60%;
+    cursor: pointer;
+}
+
+.cleanse{
+    background: linear-gradient(to left, rgba(0, 0, 0, 0), rgb(255, 255, 255) 65%) , url("STEPS/cleanse.jpg");
+}
+
+.treat{
+    background: linear-gradient(to left, rgba(0, 0, 0, 0), rgb(255, 255, 255) 65%) , url("STEPS/treat.jpg");
+}
+
+.moisturize{
+    background: linear-gradient(to left, rgba(0, 0, 0, 0), rgb(255, 255, 255) 65%) , url("STEPS/moisturize.jpg");
+}
+
+.protect{
+    background: linear-gradient(to left, rgba(0, 0, 0, 0), rgb(255, 255, 255) 65%), url("STEPS/sunscreen.jpg");
+}
+
+.step-guide{
+    background-position: center;
+    background-size: cover;
+}
+
+.guide-p{
+    width: 70%;
+    font-weight: 700;
+    font-size: 90%;
+}
+
+.routine-table{
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.download-pdf{
+    display: block;
+    justify-self: center;
+    pointer-events: none;
+    opacity: .4;
+}
+
+.download-active{
+    pointer-events: all;
+    opacity: 1;
+}
+
+.routine-table{
+    margin-top: 10px;
+}
+
+/* ********** pdf rorine div ************** */
+.routine-div{
+    background-color: var(--cream);
+    width: 100%;
+}
+
+.pdf-routine{
+    position: relative;
+    left: -1000px;
+}
+
+.default{
+    left: 0px;
+}
+
+.margin{
+    margin-bottom: 50px;
+}
+
+.margin90{
+    margin-bottom: 90px;
+}
+
+
+.nav{
+    padding: 10px 30px;
+    background-color: var(--ink);
+    width: 100%;
+    margin: 0 10px;
+    text-align: center;
+    color: var(--cream);
+}
+
+/* ************** SELECTED DAY *************** */
+.selected-day{
+    background-color: var(--clay);
+    color: var(--cream);
+}
+
+/* **************************** CART ****************************** */
+.cart{
+    height: 60px;
+    width: 60px;
+    background-color: var(--ink-soft);
+    border-radius: 50%;
+    position: fixed;
+    top: 25%;
+    left: 4%;
+    z-index: 22;
+    cursor: pointer;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cart-popup.card{
+    width: 50%;
+    text-align: center;
+    margin: 10px 0;
+
+    position: fixed;
+    bottom: 50vh;
+    justify-self: center;
+}
+
+.items{
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    background-color: var(--sand);
+    color: var(--ink);
+    border-radius: 50%;
+    font-size: .7rem;
+    padding: 5px;
+    border: 2px solid var(--ink);
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    top: 0;
+    left: 0;
+}
+
+.quantity-div input{
+    border-radius: 5px;
+    border: 2px solid var(--line);
+    text-align: center;
+    padding: 5px 0;
+    outline: 0;
+}
+
+.quantity-div{
+    margin: 0 10px;
+}
+
+.desc{
+    line-height: 1.5rem;
+}
+
+.l-height{
+    line-height: 2rem;
+}
+
+.added-to-cart{
+    background-color: var(--clay-deep);
+}
+
+/* *************************** CART **************************** */
+.remove-product{
+    display: none;
+}
+
+.show-remove{
+    display: block;
+}
+
+
+/* ****************************************  SHOPS ************************* */
+.shops{
+}
+
+.shop{
+    h4, h5{
+        margin-bottom: 5px;
+    }
+
+    border: 2px solid var(--line);
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+
+    button{
+        font-size: 12px;
+    }
+}
+
+/* ***************************** BULK ORDER ***************************** */
+.add-order-pro{
+    background-color: var(--cream);
+    padding: 5px;
+    margin: 2px;
+    display: inline-block;
+    border: 2px solid var(--line) ;
+    border-radius: 5px;
+}
+
+.selected-pro{
+    background-color: var(--clay);
+    color: var(--cream);
+}
+
+.bulk-products{
+    margin: 20px 0;
+    background-color: var(--blush);
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.order-many{
+    text-align: center;
+}
+
+.whatsapp-order{
+    width: 60%;
+    justify-self: center;
+    display: block;
+    cursor: pointer;
+}
+
+
+/*  */
+.pro-info{
+    display: flex;
+
+    img{
+        width: 10%;
+    }
+}
+
+box{
+    display: flex;
+}
+
+
+/* ******************** CONTACT FORM ************************ */
+.contact-form{
+    border: 1px solid var(--line);
+    width: 98%;
+    color: var(--ink);
+    margin: 0 auto;
+    padding: 10px;
+    background:linear-gradient(120deg, var(--cream), var(--sand));
+    text-align: center;
+
+}
+
+.contact-info{
+    margin: 10px 0;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    cursor: pointer;
+}
+
+.whatsapp-contact{
+    border-radius: 0;
+    padding: 8px 20px;
+    cursor: pointer;
+    background-color: rgb(144, 205, 52);
+}
+
+
+.add-product, .remove-product{
+    margin-bottom: 10px;
+}
+
+/*  */
+.product-card img, .pro-pic{
+    width: 30%;
+    height: 30%;
+}
+
+/* ******************* REMOVE SECTION BORDERS **************** */
+.card.display-type.m-auto.routine-div{
+    border: 0;
+    box-shadow: none;
+}
+
+.card.display-type.m-auto.routine-div.all_steps, .card.display-type.m-auto10.pros{
+    box-shadow: none;
+    border: none;
+}
+
+
+@media(max-width:670px){
+
+    .step-name{
+        font-size: 1.3rem;
+    }
+
+    .step-instruction{
+        line-height: 1.9rem;
+    }
+
+    .nav{
+        padding: 10px 10px;
+        margin: 0 5px;
+        font-size: 17px;
+        cursor: pointer;
+    }
+    .week-day{
+        height: auto;
+    }
+    .card{
+        padding:5px;
+    }
+    .routine.grid{
+        grid-template-columns: 1fr;
+    }
+
+    .product-card{
+        flex-direction: column;
+        align-items: center;
+
+        img{
+            width:80%;
+            display: block;
+            justify-self: center;
+        }
+    }
+
+    .product-name, .rating, .order{
+        margin: 20px;
+        font-size: 1.2rem;
+        text-align: center;
+    }
+
+    .order{
+        font-size: 16px;
+        font-family: serif;
+    }
+
+    .steps{
+        flex-wrap: wrap;
+        .step{
+            margin-top: 10px;
+            font-size: .9rem;
+            padding: 3px;
+        }
+        .arrow{
+            display: none;
+        }
+    }
+
+    .routine-heading{
+        padding: 15px 3px;
+        font-size: 1.3rem;
+    }
+}
+
+@media(max-width:460px){
+    .product-name, .rating, .order{
+        margin: 10px;
+    }
+
+    .order{
+        font-size: 16px;
+    }
+
+}
+
+

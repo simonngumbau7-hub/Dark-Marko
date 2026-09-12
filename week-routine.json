@@ -1,0 +1,34 @@
+[
+    
+        {
+            "id":"Cleanser",
+            "name":"Cleanse",
+            "days":["monday", "tuesday", "wednesday", "thursday", "friday", "saturday", "sunday"],
+            "time":["morning", "evening"],
+            "img":"/ROUTINE-PHOTOS/step1-cleanse.png"
+        },
+
+        {
+            "id":"Serum",
+            "name":"Treat",
+            "days":["monday", "tuesday", "wednesday", "thursday", "friday", "saturday", "sunday"],
+            "time":["morning", "evening"],
+            "img":"/ROUTINE-PHOTOS/step2-treat.png"
+        },
+        {
+            "id":"Moisturizer",
+            "name":"Moisturize",
+            "days":["monday", "tuesday", "wednesday", "thursday", "friday", "saturday", "sunday"],
+            "time":["morning", "evening"],
+            "img":"/ROUTINE-PHOTOS/step3-moist.png"
+        },
+
+        {
+            "id":"Sunscreen",
+            "name":"Protect",
+            "days":["monday", "tuesday", "wednesday", "thursday", "friday", "saturday", "sunday"],
+            "time":["morning"],
+            "img":"/ROUTINE-PHOTOS/step4-sunscreen.png"
+        }
+             
+]

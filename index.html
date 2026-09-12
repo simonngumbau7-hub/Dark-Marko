@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SkinPro</title>
+    <link rel="stylesheet" href="utils.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="routine.css">
+    <link rel="stylesheet" href="cart.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300..700;1,300..700&display=swap" rel="stylesheet">
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js"></script>
+
+   
+</head>
+<body> 
+
+    <header class="m-width m-auto m-2">
+        <h1 class="logo center">SkinPro</h1>
+    </header>
+
+    <div class="container m-width m-auto p-1">
+        
+
+        <section class="screen week-routine">
+
+
+            <div class="card display-type m-auto routine-div">
+
+                <h2 class="routine-heading center "> Your Full Week Routine </h2>
+                <p class="center m-1 mb-3">Skincare shoud not be a 10+ Step Compilication! Just:</p>
+
+                <div class="steps m-33 flex">
+                    <div class="step card">Cleanse</div>
+                    <div class="arrow">➡️</div>
+                    <div class="step card">Treat</div>
+                    <div class="arrow">➡️</div>
+                    <div class="step card">Hydrate</div>
+                    <div class="arrow">➡️</div>
+                    <div class="step card">Protect</div>
+                    <div class="arrow">➡️</div>
+                    <div class="repeat step card">Repeat</div>
+                </div>
+
+                <div class="routine">
+
+                    <!-- ONE DAY ROUTINE -->
+
+                    <div class="day-routine">
+
+                        <div class="week-days grid grid-7">
+                            <div onclick="fetchRoutine('sunday', this)" class="week-day selected-day">Sun</div>
+                            <div onclick="fetchRoutine('monday', this)" class="week-day">Mon</div>
+                            <div onclick="fetchRoutine('tuesday', this)" class="week-day">Tue</div>
+                            <div onclick="fetchRoutine('wednesday', this)" class="week-day">Wed</div>
+                            <div onclick="fetchRoutine('thursday', this)" class="week-day">Thurs</div>
+                            <div onclick="fetchRoutine('friday', this)" class="week-day">Fri</div>
+                            <div onclick="fetchRoutine('saturday', this)" class="week-day">Sat</div>
+                        </div>
+
+                        <button id="download" class="download-pdf m-1">Download PDF Week Routine</button>
+
+                        <div class="day-routine">
+
+                            <div class="morning-routine ">
+                                <h3 class="">🌄 Morning</h3>
+
+                                <div class="morning--routine">
+
+                                </div>
+                            </div>
+
+                            <div class="evening-routine ">
+                                <h3 class="center">🌙 Evening</h3>
+
+                                 <div class="evening--routine">
+                                    
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+               </div>
+            </div>
+
+        </section>
+
+        <section class="screen routine-steps">
+
+
+            <div class="card display-type m-auto routine-div all_steps">
+
+                <h2 class="routine-heading center "> Your Routine in Simple Terms</h2>
+                <p class="center m-1">Skincare shoud not be a 10+ Step Compilication! Just:</p>
+
+                <div class="steps m-1 flex">
+                    <div class="step card">Cleanse</div>
+                    <div class="arrow">➡️</div>
+                    <div class="step card">Treat</div>
+                    <div class="arrow">➡️</div>
+                    <div class="step card">Hydrate</div>
+                    <div class="arrow">➡️</div>
+                    <div class="step card">Protect</div>
+                    <div class="arrow">➡️</div>
+                    <div class="repeat step card">Repeat</div>
+                </div>
+
+                
+
+                <button class="download-steps m-1">Download Steps Guide</button>
+
+                <div class="card m-1-0 step-guide cleanse fade">
+
+                    <h4 class="m-1">Step 1 : Cleanse</h4>
+                    <p class="m-1 guide-p">
+                        Cleansing removes dirt, sweat, excess oil, makeup and sunscreen. <br>
+                        A clean surface allows serums and moisturizers to contact the skin directly for them to work nicely. <br>
+                    </p>
+                </div>
+
+                <div class="card m-1-0 step-guide treat">
+                    <h4 class="m-1">Step 2 : Treat</h4>
+                    <p class="m-1 guide-p">
+                        This is where we target dark marks/pigments using active products.<br>
+                        Since we cleansed our skin, we know our serum will spread more evenly and contact the skin directly for it to work effectively. <br>
+                    </p>
+                </div>
+
+                <div class="card m-1-0 step-guide moisturize">
+                    <h4 class="m-1">Step 3 : Moisturize </h4>
+                    <p class="m-1 guide-p">
+                        <span class="bold">Why?</span>
+                        After treating, we will help the skin hold onto water so it stays comfortable and feels smoother<br>
+                    </p>
+                </div>
+
+                <div class="card m-1-0 step-guide protect">
+                    <h4 class="m-1">Step 3 : Protect </h4>
+                    <p class="m-1 guide-p">
+                        This is the most important step after treatment<br>
+                        While our serum is fading dark spots, continued sun exposure can reverse it and make the dark spots visible making you think the serum isnt working at all<br>
+                        Our sunscreen protects progress by preventing dark marks from getting darker <br>
+                        
+                    </p>
+                </div>
+
+            </div>
+
+        </section>
+
+        <!-- ****************** PRODUCTS *****************-->
+
+        <section class="screen active products">
+
+            <div class="cart">
+                <div class="items">
+                    0
+                </div>
+
+                🛒
+            </div>
+
+            <div class="card display-type  m-auto10 pros">
+
+                <h2 class="routine-heading center "> Your Products </h2>
+                
+                <div class="reco-products">
+
+                </div>
+
+            </div>
+        </section>
+
+
+
+        <section class="screen cart-sec">
+
+
+            <div class="card display-type m-auto routine-div">
+
+                <h2 class="routine-heading center "> Your Cart </h2>
+
+                <div class="cart-content">
+    
+                </div>
+                
+
+
+            </div>
+
+        </section>
+
+
+    </div>
+
+    <section class="active contact">
+
+        <div class="contact-form">
+            <p>Here to help you get your original beauty back!</p>
+
+            <div class="contact-info">
+                <h5 class="contact-head">Contact Us</h5>
+                <button class="whatsapp-contact" onclick="contactSkinpro()">
+                    WhatsApp
+                </button>
+            </div>
+
+            <h5 class="logo">SkinPro Inc 💗</h5>
+            
+        </div>
+    </section>
+
+    <footer class="flex fixed">
+
+        <div class="switch-products nav selected-day" onclick="navigate('routine-steps', this)">Step Guide</div>
+        <div class="switch_routine nav" onclick="navigate('week-routine', this)">Routine</div>
+        <div class="switch-products nav" onclick="navigate('products', this)">Products</div>
+
+    </footer>
+    
+    
+    <script src="routine.js"></script>
+    <script src="cart.js"></script>
+</body>
+</html>

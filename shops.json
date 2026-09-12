@@ -1,0 +1,54 @@
+[
+    {
+        "name":"Beauty Hub",
+        "location":"Nairobi",
+        "exact-location":"Mithoo Business Center, 2nd Floor Rm 324",
+        "call":"0734562735",
+        "whatsapp":"254734562735",
+        "loc":"Mithoo Business Center, 2nd Floor Rm 324",
+        "products":[
+            {
+            "name": "anua-heartleaf",
+            "price": "2200",
+             "fullName":"Anua Heartleaf Pore Deep Cleansing Foam"
+            },
+
+            {
+            "name": "anua-niacinamide",
+            "price": "3200",
+             "fullName":"Anua Niacinamide 10% + TXA 4% Serum"
+            }
+
+
+        ]
+    },
+
+    {
+        "name":"Glass skin ke",
+        "location":"Nairobi",
+        "exact-location":"Mithoo Business Center, 2nd Floor Rm 324",
+        "call":"0734562735",
+        "whatsapp":"254734562735",
+        "products":[
+            {
+            "name": "hyalu-cica",
+            "price": "2600",
+            "fullName":"SKIN1004 Hyalu-Cica Water-Fit Sun Serum SPF50+ PA++++"
+            },
+
+            {
+            "name": "purito-oat",
+            "price": "3500",
+             "fullName":"Purito Oat-in Calming Gel Cream"
+            },
+            {
+            "name": "anua-niacinamide",
+            "price": "3200",
+             "fullName":"Anua Niacinamide 10% + TXA 4% Serum"
+            }
+
+
+
+        ]
+    }
+]

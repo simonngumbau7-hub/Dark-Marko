@@ -1,0 +1,148 @@
+[
+
+    {
+        "name": "Anua Heartleaf Pore Deep Cleansing Foam",
+        "brand":"Anua",
+        "category":"Cleanser",
+        "image":"PRODUCT-IMAGES/anua-heartleaf.jpg",
+        "apply":"Hello friend 💦 Wet your face → 🫧 Dispense 2 -3 pumps of your cleanser on your hand → 🤲 Gently massage 20–30 sec → 🚿 Rinse.",
+        "desc":"The cleansing effect can feel a little drying if you already use several active treatments. <br>⭐ This gently exfoliates dead skin cells. <br> ⭐ Leaves the skin feeling deeply clean and fresh. <br> ✅ If your skin gets oily, congested or has blackheads, take this",
+        "rating" : "⭐ 10",
+        "matches": [
+                {
+                    "skinType": "oily",
+                    "concern": "dark_marks",
+                    "sensitivity": ["low"]
+                }
+            ]
+            
+    },
+    {
+        "name": "Round Lab Birch Juice Moisturizing Cleanser",
+        "brand":"round lab",
+        "category":"Cleanser",
+        "image":"PRODUCT-IMAGES/round-lab-birch.webp",
+        "apply":"💦 Wet your face → 🫧 Use a small amount → 🤲 Gently massage 20–30 sec → 🚿 Rinse.",
+        "desc":"Though it has a scent, this cleanser is very gentle and it cleans without leaving yoour skin dry or tight because it has hyaluronic acid. <br> ⭐ Alcohol free <br> ✅ Best if your oily skin but gets tight/dry after cleansing.",
+        "rating" : "⭐ 10",
+        "matches": [
+                {
+                    "skinType": "oily",
+                    "concern": "dark_marks",
+                    "sensitivity": ["low"]
+                }
+            ]
+            
+    },
+
+    {
+        "name": "Arencia Vitamin C Booster Shot",
+        "brand":"Arencia",
+        "category":"Serum",
+        "image":"PRODUCT-IMAGES/arencia-vitamin-c.jpg",
+        "apply":"🌙 After cleansing → 💧 squeeze 2–3 drops of the serum on your hand → 🤲 Gently spread over face → ⏳ Let it absorb.",
+        "desc":"Gently fades dark spots. <br> ⭐ It absorbs nicely without leaving greasyness. <br> ✅ Choose this if you want a gentle dark mark fading serum that gives a lovely glow . ",
+        "rating" : "⭐ 10",
+        "matches": [
+                {
+                    "skinType": "oily",
+                    "concern": "dark_marks",
+                    "sensitivity": ["low"]
+                }
+            ]
+            
+    },
+
+    {
+        "name": "Purito Txa 6 Niacinamide Retinal Serum",
+        "brand":"purito",
+        "category":"Serum",
+        "image":"PRODUCT-IMAGES/purito-txa.jpg",
+        "apply":"🌙 After cleansing → 💧 2–3 drops → 🤲 Gently spread over face → ⏳ Let absorb → 🧴 Moisturizer.",
+        "desc":"A faster, easily absorbed dark spot clearing serum. <br> ⭐ No greasy residue or scent. <br> ✅ Best for stubborn dark marks, discoloration and rough skin texture.",
+        "rating" : "⭐ 10",
+        "matches": [
+                {
+                    "skinType": "oily",
+                    "concern": "dark_marks",
+                    "sensitivity": ["low"]
+                }
+            ]
+            
+    },
+
+    {
+        "name": "Purito Oat-in Calming Gel Cream",
+        "brand":"purito",
+        "category":"Moisturizer",
+        "image":"PRODUCT-IMAGES/purito-oat.jpg",
+        "apply":"💧 After your serum has absorbed → 🧴 Put 1–2 pea-sized amount of the moisturizer on your hand  → 🤲 Spread gently on your face → ⏳ Let absorb.",
+        "desc":"Lightweight hydration without making your skin oil heavy. <br> ⭐ Scent & Alcohol free. <br> ✅ Choose Purito if you want the non-greasy and lightest possible moisturizer for oily skin",
+        "rating" : "⭐ 10",
+        "matches": [
+                {
+                    "skinType": "oily",
+                    "concern": "dark_marks",
+                    "sensitivity": ["low"]
+                }
+            ]
+            
+    },
+
+    {
+        "name": "SKIN1004 Madagascar Centella Soothing Cream",
+        "brand":"skin1004",
+        "category":"Moisturizer",
+        "image":"PRODUCT-IMAGES/centella-soothing-cream.jpg",
+        "apply":"💧 After your serum has absorbed → 🧴 Put 1–2 pea-sized amount → 🤲 Spread gently on your face → ⏳ Let absorb. Good Night ",
+        "desc":"It calms your skin while giving lightweight hydration.  <br> ⭐ No Fragrance, Essental oils or Alcohol. <br> ✅ Best if your oily skin gets red or irritated from your pigmentation treatments",
+        "rating" : "⭐ 10",
+        "matches": [
+                {
+                    "skinType": "oily",
+                    "concern": "dark_marks",
+                    "sensitivity": ["low"]
+                }
+            ]
+            
+    },
+
+    {
+        "name": "SKIN1004 Hyalu-Cica Water-Fit Sun Serum SPF50+ PA++++",
+        "brand":"skin1004",
+        "category":"Sunscreen",
+        "image":"PRODUCT-IMAGES/hyalu-cica.jpg",
+        "apply":"💧 After your moisturizer has absorbed  → ☀️ pour 2-finger length of sunscreen → 🤲 Spread evenly over face + neck → ⏳ Let it settle before applying makeup",
+        "desc":"It feels like moisturizer rather than sunscreen - lightweight, fast absorption and non-greasy. <br> ⭐ Contains niacinamide which helps in fading dark spots and wrinkle smoothing. <br> ⭐ No Fragrance, Essental oils or Alcohol",
+        "rating" : "⭐ 10",
+        "matches": [
+                {
+                    "skinType": "oily",
+                    "concern": "dark_marks",
+                    "sensitivity": ["low"]
+                }
+            ]
+            
+    },
+
+    {
+        "name": "Beauty of Joseon Relief Sun SPF50+ PA++++",
+        "brand":"beauty of joseon",
+        "category":"Sunscreen",
+        "image":"PRODUCT-IMAGES/joseon-relief-sun.jpg",
+        "apply":"💧 After your moisturizer has absorbed → ☀️ pour 2-finger length of sunscreen → 🤲 Spread evenly over face + neck → ⏳ Let it settle before applying makeup",
+        "desc":"Go with this if you want a moisturizing, comfortable sunscreen with a more dewy finish. <br> ⭐ Its lightweight and has no white cast. <br> ⭐ Fragrance & Essental oil free",
+        "goal-part":"It contains niacinamide which helps in fading dark spots and wrinkle smoothing",
+        "rating" : "⭐ 10",
+        "matches": [
+                {
+                    "skinType": "oily",
+                    "concern": "dark_marks",
+                    "sensitivity": ["low"]
+                }
+            ]
+            
+    }
+
+
+]
