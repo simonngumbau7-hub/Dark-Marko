@@ -615,7 +615,7 @@ async function addtoCart(button) {
                 const formated_name = product.name.replaceAll("-", " ")
 
                 add_buk.innerHTML = `
-                    <div class="add-order-pro" onclick="bulkOrder(this)">${formated_name} : <span class="price-bulk">${product.price}</span>
+                    <div class="add-order-pro" onclick="bulkOrder(this)">${product.fullName} : <span class="price-bulk">${product.price}</span>
                         <div class = "full-name">${product.fullName}</div>
                     </div>
                 `
