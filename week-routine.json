@@ -15,7 +15,7 @@
             "days":["monday", "tuesday", "wednesday", "thursday", "friday", "saturday", "sunday"],
             "time":["morning"],
             "product":["arencia"],
-            "img":"/ROUTINE-PHOTOS/arencia-step.png"
+            "img":"./ROUTINE-PHOTOS/arencia-step.png"
         },
 
          {
@@ -24,7 +24,7 @@
             "days":["monday", "tuesday", "wednesday", "thursday", "friday", "saturday", "sunday"],
             "time":["evening"],
             "product":["purito"],
-            "img":"/ROUTINE-PHOTOS/step2-treat.png"
+            "img":"./ROUTINE-PHOTOS/step2-treat.png"
         },
         {
             "id":"Moisturizer",
@@ -32,7 +32,7 @@
             "days":["monday", "tuesday", "wednesday", "thursday", "friday", "saturday", "sunday"],
             "time":["morning", "evening"],
             "product":["arencia","purito"],
-            "img":"/ROUTINE-PHOTOS/step3-moist.png"
+            "img":"./ROUTINE-PHOTOS/step3-moist.png"
         },
 
         {
@@ -41,7 +41,7 @@
             "days":["monday", "tuesday", "wednesday", "thursday", "friday", "saturday", "sunday"],
             "time":["morning"],
             "product":["arencia","purito"],
-            "img":"/ROUTINE-PHOTOS/step4-sunscreen.png"
+            "img":"./ROUTINE-PHOTOS/step4-sunscreen.png"
         }
              
 ]
