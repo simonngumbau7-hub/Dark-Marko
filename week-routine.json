@@ -5,14 +5,25 @@
             "name":"Cleanse",
             "days":["monday", "tuesday", "wednesday", "thursday", "friday", "saturday", "sunday"],
             "time":["morning", "evening"],
+            "product":["arencia","purito"],
             "img":"/ROUTINE-PHOTOS/step1-cleanse.png"
         },
 
         {
             "id":"Serum",
-            "name":"Treat",
+            "name":"Treat - Arencia Vitamin C",
             "days":["monday", "tuesday", "wednesday", "thursday", "friday", "saturday", "sunday"],
-            "time":["morning", "evening"],
+            "time":["morning"],
+            "product":["arencia"],
+            "img":"/ROUTINE-PHOTOS/arencia-step.png"
+        },
+
+         {
+            "id":"Serum",
+            "name":"Treat - Purito TXA 6 - Only 3 times/week ( Monday, Wednesday & Friday )",
+            "days":["monday", "tuesday", "wednesday", "thursday", "friday", "saturday", "sunday"],
+            "time":["evening"],
+            "product":["purito"],
             "img":"/ROUTINE-PHOTOS/step2-treat.png"
         },
         {
@@ -20,6 +31,7 @@
             "name":"Moisturize",
             "days":["monday", "tuesday", "wednesday", "thursday", "friday", "saturday", "sunday"],
             "time":["morning", "evening"],
+            "product":["arencia","purito"],
             "img":"/ROUTINE-PHOTOS/step3-moist.png"
         },
 
@@ -28,6 +40,7 @@
             "name":"Protect",
             "days":["monday", "tuesday", "wednesday", "thursday", "friday", "saturday", "sunday"],
             "time":["morning"],
+            "product":["arencia","purito"],
             "img":"/ROUTINE-PHOTOS/step4-sunscreen.png"
         }
              

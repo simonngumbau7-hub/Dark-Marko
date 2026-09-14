@@ -119,10 +119,9 @@ step_download.addEventListener('click', () => {
 
 
         /* **************** FETCH AND DISPLAY FULL ROUTINE *********************** */
-async function fetchRoutine(day, daybox){
+async function fetchRoutine(treatment, daybox){
     
     pdf_download.classList.add("download-active")
-    
     
     let img_source;
 
@@ -131,17 +130,13 @@ async function fetchRoutine(day, daybox){
     })
 
     daybox.classList.add("selected-day")
-    
-
-    
+      
     const response = await fetch("./week-routine.json")
-
-    const week_routine = await response.json()
+    const week_routine = await response.json();
     
-
     /* ******************** GET ROUTINE FOR THE SELECTED DAY *********************** */
     const today_routine = week_routine.filter( routine => {
-       return routine.days.includes(day)
+       return routine.product.includes(treatment)
     })
     
    /* ********************* GET MORNING ROUTINE ************ */
@@ -298,7 +293,7 @@ async function fetchProducts(){
 
    switch (sensitive) {
     case "low":
-        sensitive_level = "Non Sensitive";
+        sensitive_level = "Low Sensitive";
         break;
    }
 
@@ -457,7 +452,7 @@ async function routinePDF(){
 /* **************** FETCH PRODUCT IMAGE uRlS *************** */
 async function fetchImages(params) {
     
-    const all_images = await fetch("/products.json")
+    const all_images = await fetch("./products.json")
     const result = await all_images.json()
     const image_urls = result.map( pro => {
         return pro.image
@@ -690,7 +685,7 @@ cart_link.addEventListener( "click", ()=>{
 
 /* ********************** FETCH BUSNESSES *********************** */
 async function fetchBusiness(params) {
-    const response = await fetch("/shops.json")
+    const response = await fetch("./shops.json")
     const shops = await response.json();
     return shops;
 }
