@@ -6,7 +6,7 @@
             "days":["monday", "tuesday", "wednesday", "thursday", "friday", "saturday", "sunday"],
             "time":["morning", "evening"],
             "product":["arencia","purito"],
-            "img":"/ROUTINE-PHOTOS/step1-cleanse.png"
+            "img":"./ROUTINE-PHOTOS/step1-cleanse.png"
         },
 
         {
