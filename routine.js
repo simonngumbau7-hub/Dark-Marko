@@ -761,7 +761,7 @@ async function bulkOrder(product) {
 
 function sendOrder(shop, number) {
 
-    fbq('track', 'InitiateCheckout');
+    fbq('track', 'WhatsappOrder');
     
     const shop_div = shop.parentElement
     const shop_name = shop_div.querySelector(".shop-name").textContent
