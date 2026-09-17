@@ -781,7 +781,7 @@ function sendOrder(shop, number) {
 
     /* ********************* WHATSAPP MESSAGE *************************** */
     const whatsapp_number = number;
-    const url = `https://wa.me/${whatsapp_number}?text=${encodeURIComponent(message)}`
+    const url = `whatsapp://send?phone=${my_number}&text=${encodeURIComponent(message)}`
     window.open(url,"_blank")
     
 
@@ -795,7 +795,8 @@ function contactSkinpro(params) {
     const bs_name = 'Skinpro Inc.'
     const my_number = "254714864161"
     const message = `Hello ${bs_name}`
-    const url = `https://wa.me/${my_number}?text=${encodeURIComponent(message)}`
+
+    const url = `whatsapp://send?phone=${my_number}&text=${encodeURIComponent(message)}`
     window.open(url,"_blank")
     
 
