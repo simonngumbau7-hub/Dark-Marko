@@ -532,6 +532,39 @@ box{
     border-radius: 10px;
 }
 
+.product-needs{
+    text-align: center;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+
+    ul{
+        list-style-type: none;
+        display: flex;
+        justify-content: space-between;
+        margin-top: 10px;
+
+        li{
+            padding: 5px 10px;
+            margin: 0 5px;
+            background-color: var(--clay);
+        }
+    }
+}
+
+
+@media(max-width:705px){
+    .product-needs{
+        ul{
+            li{
+                padding: 5px 5px;
+                margin: 0 2px;
+                background-color: var(--clay);
+                font-size: 70%;
+            }
+        }
+    }
+}
+
 
 @media(max-width:670px){
 

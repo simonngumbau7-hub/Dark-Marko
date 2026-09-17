@@ -778,13 +778,10 @@ function sendOrder(shop, number) {
     
     const message = `Hello ${shop_name}. I want ${pro_string} and ${p_quantity} ${p_name}.`
 
-
     /* ********************* WHATSAPP MESSAGE *************************** */
     const whatsapp_number = number;
     const url = `whatsapp://send?phone=${number}&text=${encodeURIComponent(message)}`
     window.open(url,"_blank")
-    
-
 }
 
 
