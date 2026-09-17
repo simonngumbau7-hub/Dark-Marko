@@ -760,6 +760,8 @@ async function bulkOrder(product) {
 
 
 function sendOrder(shop, number) {
+
+    fbq('trackCustom', 'WhatsappOrder');
     
     const shop_div = shop.parentElement
     const shop_name = shop_div.querySelector(".shop-name").textContent
@@ -781,7 +783,7 @@ function sendOrder(shop, number) {
 
     /* ********************* WHATSAPP MESSAGE *************************** */
     const whatsapp_number = number;
-    const url = `whatsapp://send?phone=${my_number}&text=${encodeURIComponent(message)}`
+    const url = `whatsapp://send?phone=${number}&text=${encodeURIComponent(message)}`
     window.open(url,"_blank")
     
 
