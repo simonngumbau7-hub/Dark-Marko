@@ -1,23 +1,50 @@
 [
     {
-        "name":"Beauty Hub",
+        "name":"Jacquies Collection",
         "location":"Nairobi",
         "exact-location":"Mithoo Business Center, 2nd Floor Rm 324",
-        "call":"0734562735",
-        "whatsapp":"254734562735",
-        "loc":"Mithoo Business Center, 2nd Floor Rm 324",
+        "call":"0706767031",
+        "whatsapp":"254706767031",
+        "loc":"Re-Insurance Plaza, Agha Khan Walk : Ground Floor, Inside T Style Collection",
         "products":[
             {
             "name": "anua-heartleaf",
-            "price": "2200",
+            "price": "2300",
              "fullName":"Anua Heartleaf Pore Deep Cleansing Foam"
             },
 
             {
-            "name": "anua-niacinamide",
+            "name": "arencia-vitamin-c",
+            "price": "2600",
+             "fullName":"Arencia Vitamin C Booster Shot"
+            },
+
+            {
+            "name": "purito-txa",
             "price": "3200",
-             "fullName":"Anua Niacinamide 10% + TXA 4% Serum"
-            }
+             "fullName":"Purito Txa 6 Niacinamide Retinal Serum"
+            },
+
+            {
+            "name": "hyalu-cica",
+            "price": "3800",
+             "fullName":"SKIN1004 Hyalu-Cica Water-Fit Sun Serum SPF50+ PA++++"
+            },
+
+            {
+            "name": "joseon-releif-sun",
+            "price": "2500",
+             "fullName":"Beauty of Joseon Relief Sun SPF50+ PA++++"
+            },
+
+            {
+            "name": "purito-oat",
+            "price": "2600",
+             "fullName":"Purito Oat-in Calming Gel Cream"
+            },
+
+            
+
 
 
         ]
