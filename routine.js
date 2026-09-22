@@ -532,6 +532,7 @@ async function addtoCart(button) {
                 }
             })
         })
+        
 
 
         const shops_with_it = shop_has_it;
@@ -566,17 +567,21 @@ async function addtoCart(button) {
 
         const shops_div = cart_item.querySelector(".shops")
         /* ************************ CREATE SHOPS HTML *********************** */
+        let shop_price;
         shops_with_it.forEach( shop => {
-
+            
             const in_stock_products = []
 
             shop.products.forEach( pro => {
                 
                 if (pro.name != `${image_path.split(".")[0]}`) {
-                    in_stock_products.push(pro)
+                    in_stock_products.push(pro);                
+                } else {
+                    shop_price = pro.price;
                 }
             
             }) 
+            
 
             const shop_div = document.createElement("div")
 
@@ -584,16 +589,16 @@ async function addtoCart(button) {
             
                         <div class="shop">
                             <h4 class="shop-name">${shop.name}, <span class="town">${shop.location}</span></h>
-                            <h5>Ksh : <span class="price">${price}</span></h5>
+                            <h5>Ksh : <span class="price">${shop_price}</span></h5>
                             <p class="exact-location"> <b> Location </b> : ${shop.loc}</p>
                     
                             <div class="bulk-products">
                                 <h5 class="order-many">Order Multiple at Once</h5>
                             </div>
 
-                            <span class = "const-price">${price}</span>
+                            <span class = "const-price">${shop_price}</span>
 
-                            <div class="total">Total Ksh : <span class="total-funds">${price}</span></div>
+                            <div class="total">Total Ksh : <span class="total-funds">${shop_price}</span></div>
 
                             <button class="whatsapp-order" onclick="sendOrder(this, ${shop.whatsapp})" >Order on WhatsApp</button>
 
@@ -706,6 +711,9 @@ function quantityChange(input) {
 
         const price_int = parseInt(const_price.textContent)        
         price_display.textContent = (price_int*new_quantity)
+
+        console.log(price_int);
+        
 
         const price_display_int = Number(price_display.textContent)
 

@@ -55,19 +55,19 @@
 
             {
             "name": "anua-heartleaf",
-            "price": "2300",
+            "price": "2200",
              "fullName":"Anua Heartleaf Pore Deep Cleansing Foam"
             },
 
             {
             "name": "arencia-vitamin-c",
-            "price": "2600",
+            "price": "2500",
              "fullName":"Arencia Vitamin C Booster Shot"
             },
 
             {
             "name": "purito-txa",
-            "price": "3200",
+            "price": "2800",
              "fullName":"Purito Txa 6 Niacinamide Retinal Serum"
             },
 
@@ -84,7 +84,7 @@
             },
             {
             "name": "joseon-releif-sun",
-            "price": "2500",
+            "price": "2400",
              "fullName":"Beauty of Joseon Relief Sun SPF50+ PA++++"
             }
 
@@ -117,7 +117,7 @@
             },
             {
             "name": "joseon-releif-sun",
-            "price": "25600",
+            "price": "2600",
              "fullName":"Beauty of Joseon Relief Sun SPF50+ PA++++"
             }
 
@@ -163,6 +163,13 @@
             "name": "purito-txa",
             "price": "3200",
              "fullName":"Purito Txa 6 Niacinamide Retinal Serum"
+            },
+
+
+            {
+            "name": "centella-soothing-cream",
+            "price": "3300",
+             "fullName":"SKIN1004 Madagascar Centella Soothing Cream"
             },
 
             {
