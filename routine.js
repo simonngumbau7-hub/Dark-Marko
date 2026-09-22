@@ -585,8 +585,7 @@ async function addtoCart(button) {
                         <div class="shop">
                             <h4 class="shop-name">${shop.name}, <span class="town">${shop.location}</span></h>
                             <h5>Ksh : <span class="price">${price}</span></h5>
-                            <p class="exact-location">${shop.loc}</p>
-                             <p class="contact">Call : <span class="p-number">${shop.call}</span></p>
+                            <p class="exact-location"> <b> Location </b> : ${shop.loc}</p>
                     
                             <div class="bulk-products">
                                 <h5 class="order-many">Order Multiple at Once</h5>

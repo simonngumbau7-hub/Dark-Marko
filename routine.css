@@ -410,8 +410,7 @@ html{
 
 
 /* ****************************************  SHOPS ************************* */
-.shops{
-}
+
 
 .shop{
     h4, h5{
@@ -546,7 +545,8 @@ box{
         li{
             padding: 5px 10px;
             margin: 0 5px;
-            background-color: var(--clay);
+            background-color: var(--clay-deep);
+            color: var(--cream);
         }
     }
 }
